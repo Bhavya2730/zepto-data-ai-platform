@@ -14,9 +14,6 @@ The project demonstrates data collection and storage, exploratory data analysis,
 
 ---
 
-# Repository Structure
-
-```text
 zepto-data-ai-platform/
 │
 ├── README.md
@@ -31,21 +28,29 @@ zepto-data-ai-platform/
 ├── analytics/
 │   ├── 01_load_titanic.py
 │   ├── 02_profile_missing.py
-│   ├── 03_outliers_distributions.py
-│   ├── 04_group_correlation.py
-│   ├── 05_multivariate_eda.py
-│   ├── 06_standardize.py
-│   ├── 07_split_data.py
-│   ├── 08_preprocess.py
-│   ├── 09_train_models.py
-│   ├── 10_evaluate_models.py
-│   ├── 11_handle_imbalance.py
-│   ├── 12_tune_random_forest.py
-│   ├── 13_regression.py
-│   ├── 14_model_comparison.py
+│   ├── 03_univariate_analysis.py
+│   ├── 04_bivariate_analysis.py
+│   ├── 05_multivariate_story.py
+│   ├── 06_standardization.py
+│   ├── 07_train_test_split.py
+│   ├── 08_preprocessing.py
+│   ├── 09_train_classifiers.py
+│   ├── 10_evaluate_classifiers.py
+│   ├── 11_class_imbalance.py
+│   ├── 12_random_forest_gridsearch.py
+│   ├── 13_fare_regression.py
+│   ├── 14_final_model_comparison.py
 │   ├── 15_save_final_pipeline.py
 │   ├── README.md
-│   └── titanic.csv
+│   ├── titanic.csv
+│   ├── titanic_cleaned_stage_2_2.csv
+│   ├── titanic_eda_standardized.csv
+│   │
+│   ├── models/              ← generated/ignored
+│   ├── plots/               ← generated/ignored
+│   ├── preprocessing/       ← generated/ignored
+│   ├── results/             ← generated/ignored
+│   └── splits/              ← generated/ignored
 │
 └── support_assistant/
     ├── 01_verify_corpus.py
@@ -62,7 +67,18 @@ zepto-data-ai-platform/
     ├── Dockerfile
     ├── README.md
     ├── chunks.jsonl
-    └── docs/
+    │
+    ├── docs/
+    │   ├── doc_01.txt
+    │   ├── doc_02.txt
+    │   ├── doc_03.txt
+    │   ├── doc_04.txt
+    │   ├── doc_05.txt
+    │   ├── doc_06.txt
+    │   ├── doc_07.txt
+    │   └── doc_08.txt
+    │
+    └── chroma_db/            ← generated/ignored
 
 Technologies Used
 Programming
