@@ -49,3 +49,14 @@ The query script demonstrates:
 - `JOIN`
 
 It also reads multiple SQL results with `pd.read_sql()` and independently recreates the JOIN using `pd.merge()`, then checks that the results are equivalent.
+
+## Validation
+
+Module 1 was tested end-to-end successfully.
+
+- 100 books scraped
+- 100 clean rows
+- 29 categories
+- SQLite database generated successfully
+- SQL query outputs generated successfully
+- pandas `pd.read_sql` and `pd.merge` JOIN outputs verified as equivalent
