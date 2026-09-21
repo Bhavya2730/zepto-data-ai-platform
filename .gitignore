@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.joblib
+analytics/models/
+analytics/plots/
+analytics/results/
+analytics/splits/
+*.sqlite
+.DS_Store
+analytics/preprocessing/
