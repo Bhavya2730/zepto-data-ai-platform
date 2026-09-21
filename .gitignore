@@ -14,3 +14,4 @@ analytics/splits/
 *.sqlite
 .DS_Store
 analytics/preprocessing/
+support_assistant/chroma_db/
